@@ -19,7 +19,7 @@
   ======================== */
 
 .hero-container {
-  height: 1080px;
+  height: 900px;
   background: url("../Images/Banner.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,7 +45,6 @@
 .Hitotsu-container {
   display: flex;
   justify-content: space-between;
-
 }
 
 .image-reponsive img,
@@ -53,12 +52,15 @@
   width: 100%;
   height: 100%;
 }
+
 .image-reponsive {
   flex-basis: 49%;
 }
-.Stallion-card,.Hitotsu-content {
+
+.Stallion-card,
+.Hitotsu-content {
   flex-basis: 49%;
-  padding: 110px 130px;
+  padding: 110px 163px 109px 131px;
 }
 
 .Premium-icon-setup {
@@ -87,6 +89,7 @@
 .Client-Relations {
   margin-bottom: 32px;
 }
+
 .Client-Relations h1 {
   font: normal 400 30px/37px 'Montserrat', sans-serif;
   text-transform: uppercase;
@@ -116,6 +119,14 @@ li {
 
 .Client-Relations li {
   margin-bottom: 20px;
+}
+
+.Hitotsu-content {
+  padding: 177px 131px 176px 163px !important;
+}
+
+.lovatsville-card {
+  padding: 169px 163px 168px 131px;
 }
 
 /* =====================
@@ -153,8 +164,7 @@ li {
   font: normal 400 24px/39px 'Montserrat', sans-serif;
   text-align: center;
   color: #777777;
-  padding: 20px;
-  margin-bottom: 40px;
+  padding: 14px 213px 70px 213px;
 }
 
 .input-container {
@@ -215,6 +225,106 @@ li {
   cursor: pointer;
 }
 
+input[type="text"][type="email"] {
+  color: black;
+}
+
+input[type="email"] {
+  color: black;
+}
+
+
 /* =====================
   Footer Section Ends
   ======================== */
+
+
+/* =================
+   Responsive Starts
+  ====================  */
+@media only screen and (max-width: 1200px) {
+  .image-resize {
+    width: 480;
+    height: 500px;
+  }
+
+  .Stallion-card {
+    padding: 70px 50px 70px 70px;
+  }
+
+  .Hitotsu-content {
+    padding: 100px 70px 100px 70px !important;
+  }
+
+  .form-container {
+    width: 1000px;
+    height: 743px;
+  }
+
+  .form-container p {
+    font: normal 400 20px/34px 'Montserrat', sans-serif;
+    padding: 14px 150px 50px 150px;
+  }
+
+}
+
+@media only screen and (max-width: 950px) {
+  .Stallion-card {
+    padding: 20px 10px 20px 20px;
+  }
+
+  .Hitotsu-content {
+    padding: 50px 20px 50px 20px !important;
+  }
+
+  .form-container {
+    width: 800px;
+    height: 700px;
+  }
+
+  .form-container p {
+    font: normal 400 20px/34px 'Montserrat', sans-serif;
+    padding: 14px 90px 20px 100px;
+  }
+
+}
+
+@media only screen and (max-width: 700px) {
+  .down-arrow img {
+    width: 74px;
+    height: 74px;
+  }
+
+  .Stallion-Agency,
+  .Hitotsu-container {
+    display: block;
+  }
+
+  .Hitotsu-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .Hitotsu-image {
+    width: 100%;
+  }
+
+  .Stallion-card {
+    padding: 30px 20px 30px 30px;
+  }
+
+  .Hitotsu-content {
+    padding: 60px 30px 60px 30px !important;
+  }
+
+  .form-container {
+    width: 800px;
+    height: 680px;
+  }
+
+  .form-container p {
+    font: normal 400 20px/34px 'Montserrat', sans-serif;
+    padding: 14px 100px 30px 110px;
+  }
+
+}
