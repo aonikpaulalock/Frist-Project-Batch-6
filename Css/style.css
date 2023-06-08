@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+/* =====================
+  All Selector 
+  ======================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* html {
+  font-size: 62.2%;
+} */
+
+/* =====================
+  Hero Section 
+  ======================== */
+
+.hero-container {
+  height: 48.1vw;
+  background: url("../Images/Banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.center-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-resize {
+  width: 500px;
+  height: 510px;
+}
+
+.down-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* =====================
+  Hero Section Ends
+  ======================== */
+
+/* =====================
+  Stallion-Agency Starts
+  ======================== */
+.Stallion-Agency {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.card-width {
+  flex-basis: 55%;
+}
+
+.image-reponsive img {
+  width: 100%;
+}
+
+.Stallion-card {
+  flex-basis: 49%;
+}
+
+.Premium-icon-setup {
+  display: flex;
+  align-items: flex-start;
+}
+
+.Client-Relations {
+  margin-left: 32px;
+}
+
+.Stallion-heading h1 {
+  font: normal 400 48px/59px 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: #262525;
+}
+
+.Stallion-heading h6 {
+  font: normal 400 20px/30px 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: #262525;
+  margin: 24px 0 60px 0
+}
+
+
+.Client-Relations h1 {
+  font: normal 400 30px/37px 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: #262525;
+  margin-bottom: 24px;
+}
+.Client-Relations p {
+  font: normal 400 20px/30px 'Montserrat', sans-serif;
+  color: #777777;
+}
+
+.extra-content {
+  padding-top: 15px;
+}
