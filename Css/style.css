@@ -19,19 +19,13 @@
   ======================== */
 
 .hero-container {
-  height: 48.1vw;
+  height: 1080px;
   background: url("../Images/Banner.png");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-
-.image-resize {
-  width: 500px;
-  height: 510px;
 }
 
 .down-arrow {
@@ -59,10 +53,12 @@
   width: 100%;
   height: 100%;
 }
-
-.Stallion-card {
+.image-reponsive {
   flex-basis: 49%;
-  margin-left: 50px;
+}
+.Stallion-card,.Hitotsu-content {
+  flex-basis: 49%;
+  padding: 110px 130px;
 }
 
 .Premium-icon-setup {
@@ -79,7 +75,6 @@
   font: normal 400 48px/59px 'Montserrat', sans-serif;
   text-transform: uppercase;
   color: #262525;
-  padding-top: 110px;
 }
 
 .Stallion-heading h6 {
@@ -89,7 +84,9 @@
   margin: 24px 0 60px 0
 }
 
-
+.Client-Relations {
+  margin-bottom: 32px;
+}
 .Client-Relations h1 {
   font: normal 400 30px/37px 'Montserrat', sans-serif;
   text-transform: uppercase;
@@ -103,15 +100,6 @@ li {
   color: #777777;
 }
 
-.content-space {
-  margin-top: 40px;
-  padding: 20px;
-}
-
-.extra-content {
-  margin-top: 10px;
-}
-
 /* =====================
   Stallion-Agency Ends
   ======================== */
@@ -120,7 +108,6 @@ li {
   ======================== */
 .Hitotsu-content {
   flex-basis: 49%;
-  margin: 0 60px;
 }
 
 .Hitotsu-image {
@@ -149,7 +136,7 @@ li {
 }
 
 .form-container {
-  width: 1100px;
+  width: 1320px;
   height: 743px;
   background: #FFFDFD;
   display: flex;
@@ -182,7 +169,7 @@ li {
   height: 60px;
   border: 1px solid #DFDFDF;
   border-radius: 5px;
-  margin-right: 16px;
+  margin-right: 15px;
   padding: 0 10px;
   outline: none;
   font: normal 400 17px/30px 'Montserrat', sans-serif;
