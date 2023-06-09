@@ -328,3 +328,80 @@ input[type="email"] {
   }
 
 }
+
+@media only screen and (max-width: 500px) {
+  .hero-container {
+    height: 600px;
+  }
+  .Stallion-heading h1,
+  .form-container h1 {
+    font: normal 400 35px/45px 'Montserrat', sans-serif;
+  }
+  .Stallion-heading h6 {
+    font: normal 400 18px/28px 'Montserrat', sans-serif;
+    margin: 20px 0 50px 0
+  }
+  .Client-Relations h1 {
+    font: normal 400 22px/30px 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .Client-Relations p,
+  li {
+    font: normal 400 17px/26px 'Montserrat', sans-serif;
+  }
+  .down-arrow img {
+    width: 55px;
+    height: 55px;
+  }
+
+  .image-resize {
+    width: 300px;
+    height: 300px;
+  }
+
+  .Stallion-card {
+    padding:40px 20px 20px 20px;
+  }
+
+  .Hitotsu-content {
+    padding: 40px 20px 20px 20px!important;
+  }
+
+  .form-container p {
+    font: normal 400 20px/34px 'Montserrat', sans-serif;
+    padding: 14px 90px 30px 90px;
+  }
+  .first-name,
+  .last-name {
+    width: 300px;
+    height: 55px;
+    margin: 0 0 15px 0;
+    display: block;
+  }
+
+  .email-input {
+    margin: 16px 0;
+    width: 300px;
+    height: 55px;
+  }
+
+  .message-input {
+    width: 300px;
+    height: 110px;
+  }
+
+  .form-container p {
+    font: normal 400 16px/24px 'Montserrat', sans-serif;
+    padding: 10px 40px 15px 40px;
+  }
+
+
+  .contact-button {
+    width: 300px;
+    height: 55px;
+  }
+  .fotter-container {
+    height: 800px;
+  }
+}
