@@ -232,16 +232,17 @@ input[type="text"][type="email"] {
 input[type="email"] {
   color: black;
 }
-
-
 /* =====================
   Footer Section Ends
   ======================== */
 
-
 /* =================
    Responsive Starts
   ====================  */
+
+/* =============
+  Screen Size 1200px
+  ================== */
 @media only screen and (max-width: 1200px) {
   .image-resize {
     width: 480;
@@ -268,6 +269,9 @@ input[type="email"] {
 
 }
 
+/* =============
+  Screen Size 950px
+  ================== */
 @media only screen and (max-width: 950px) {
   .Stallion-card {
     padding: 20px 10px 20px 20px;
@@ -289,6 +293,9 @@ input[type="email"] {
 
 }
 
+/* =============
+  Screen Size 700px
+  ================== */
 @media only screen and (max-width: 700px) {
   .down-arrow img {
     width: 74px;
@@ -329,27 +336,34 @@ input[type="email"] {
 
 }
 
+/* =============
+  Screen Size 500px
+  ================== */
 @media only screen and (max-width: 500px) {
   .hero-container {
     height: 600px;
   }
+
   .Stallion-heading h1,
   .form-container h1 {
     font: normal 400 35px/45px 'Montserrat', sans-serif;
   }
+
   .Stallion-heading h6 {
     font: normal 400 18px/28px 'Montserrat', sans-serif;
     margin: 20px 0 50px 0
   }
+
   .Client-Relations h1 {
     font: normal 400 22px/30px 'Montserrat', sans-serif;
     margin-bottom: 20px;
   }
-  
+
   .Client-Relations p,
   li {
     font: normal 400 17px/26px 'Montserrat', sans-serif;
   }
+
   .down-arrow img {
     width: 55px;
     height: 55px;
@@ -361,17 +375,18 @@ input[type="email"] {
   }
 
   .Stallion-card {
-    padding:40px 20px 20px 20px;
+    padding: 40px 20px 20px 20px;
   }
 
   .Hitotsu-content {
-    padding: 40px 20px 20px 20px!important;
+    padding: 40px 20px 20px 20px !important;
   }
 
   .form-container p {
     font: normal 400 20px/34px 'Montserrat', sans-serif;
     padding: 14px 90px 30px 90px;
   }
+
   .first-name,
   .last-name {
     width: 300px;
@@ -401,7 +416,12 @@ input[type="email"] {
     width: 300px;
     height: 55px;
   }
+
   .fotter-container {
     height: 800px;
   }
 }
+
+/* =================
+   Responsive Ends
+  ====================  */
